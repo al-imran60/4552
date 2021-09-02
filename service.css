@@ -1,0 +1,306 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans Caption', sans-serif;
+
+}
+
+/* nav bar */
+.nav-bar-container{
+  background-color: #1e221d;
+  position: relative;
+  display: flex;
+  width: 100%;
+  
+}
+.logo img{
+  width: 130px;
+  margin: 20px;
+  
+}
+
+.nav-menu{
+  margin-top: 70px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 850px;
+  
+}
+
+.nav-menu a{
+  color: rgb(241, 241, 241);
+  text-decoration: none;
+  padding: 20px;
+  font-size: 1.4rem;
+  transition: 2.6s;
+}
+.nav-menu a:hover{
+  box-shadow: 2px 4px 20px 40px blue;
+}
+
+/* nav bar ends */
+
+
+
+
+
+/* service section */
+
+#h2{
+  text-align: center;
+  color: black;
+  box-shadow: 3px 4px 8px 3px black;
+  margin-right: 10%;
+  transition: 2s;
+  background-color: cornsilk;
+  text-transform: uppercase;
+ }
+ #h2:hover{
+   box-shadow: 2px 5px 50px 40px rgb(0, 255, 0);
+ }
+ .service{
+   background-color: #c7ecee;
+   height: 900px;
+   position: relative;
+   align-items: center;
+   box-shadow: 3px 4px 8px 3px black;
+   display: flex;
+   
+   
+ } 
+ 
+ 
+ .card{
+   width: 20%;
+   background-color: #1B1464;
+   background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.80)),url(img/card.jpeg) ;
+   background-size: cover;
+   margin-left:180px;
+   margin-bottom: 3px;
+   height: 550px;
+   border-radius: 15px;
+   position: relative;
+   box-shadow: 10px 25px 20px 5px #000000;
+   transition: 2s;
+ }
+ .card:hover{
+   background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,0.80)), url(img/side\ cover.jpg) ;
+   background-size: cover;
+   border: wheat 4px solid;
+   box-shadow: 4px 6px 5px 1px white;
+   
+ }
+ .html{
+   width: 100px;
+   margin-left: 100px;
+   margin-top: 30px;
+   
+ }
+ 
+ .html-1{
+   color: white;
+   letter-spacing: 5px;
+   font-weight: bold;
+   font-size: 2rem;
+   margin-left: 100px;
+   margin-top: 20px;
+ }
+ .html-2{
+  color: white;
+   letter-spacing: 5px;
+   font-weight: bold;
+   font-size: 2rem;
+   margin-left: 60px;
+   margin-top: 20px;
+ }
+ #html-text{
+   margin-top: 40px;
+   position: relative;
+   
+ }
+ 
+ #line-1, #line-2, #line-3, #line-4, #line-5, #line-6{
+   color: #fff;
+   margin-left: 40px;
+   
+   font-size: 1.1rem;
+   line-height: 8px;
+   
+ }
+ #line-1::after{
+   content: '';
+   height: 5px;
+   bottom: 50%;
+   left: 48px;
+   position: absolute;
+   background-color: dodgerblue;
+   width: 0%;
+   transition: 1.5s;
+   border-radius: 30px;
+   box-shadow: 2px 2px 6px 2px black;
+ }
+ #line-1:hover::after{
+   width: 80%;
+ }
+ #line-2::after{
+   content: '';
+   height: 5px;
+   bottom: 41%;
+   left: 48px;
+   position: absolute;
+   background-color: rgb(25, 243, 6);
+   width: 0%;
+   transition: 1s;
+   border-radius: 30px;
+   box-shadow: 2px 2px 6px 2px black;
+ }
+ #line-2:hover::after{
+   width: 50%;
+ }
+ 
+ #line-3::after{
+   content: '';
+   height: 5px;
+   bottom: 33%;
+   left: 48px;
+   position: absolute;
+   background-color:dodgerblue;
+   width: 0%;
+   transition: 1s;
+   border-radius: 30px;
+   box-shadow: 2px 2px 6px 2px black;
+ }
+ #line-3:hover::after{
+   width: 70%;
+ }
+ #line-4::after{
+   content: '';
+   height: 5px;
+   bottom: 25%;
+   left: 48px;
+   position: absolute;
+   background-color:red;
+   width: 0%;
+   transition: 1s;
+   border-radius: 30px;
+   box-shadow: 2px 2px 6px 2px black;
+ }
+ #line-4:hover::after{
+   width: 80%;
+ }
+ #line-5::after{
+   content: '';
+   height: 5px;
+   bottom: 16%;
+   left: 48px;
+   position: absolute;
+   background-color:greenyellow;
+   width: 0%;
+   transition: 1s;
+   border-radius: 30px;
+   box-shadow: 2px 2px 6px 2px black;
+ }
+ #line-5:hover::after{
+   width: 60%;
+ }
+ #line-6::after{
+   content: '';
+   height: 5px;
+   bottom: 8%;
+   left: 48px;
+   position: absolute;
+   background-color:yellow;
+   width: 0%;
+   transition: 1s;
+   border-radius: 30px;
+   box-shadow: 2px 2px 6px 2px black;
+ }
+ #line-6:hover::after{
+   width: 70%;
+ }
+ 
+ 
+ 
+ /* service section ends */
+
+ /* footer section  */
+
+.footer-container{
+  background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url(img/footer\ banner.jpg) ;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+}
+.about-text-here{
+  margin-left: 90px;
+  padding-top: 80px;
+}
+.footerp{
+  color: white;
+}
+.about-company{
+  color: white;
+  margin-bottom: 15px;
+  
+}
+.about-company-1{
+  color: white;
+  margin-bottom: 15px;
+  margin-left: 160px;
+}
+.about-line{
+  width: 140%;
+}
+.address-line{
+  margin-top: 20px;
+}
+.copy-right{
+  margin-top: 60px;
+ padding-bottom: 40px;
+
+}
+
+.about-com{
+  width: 250px;
+
+}
+.links{
+  
+  margin-left: 130px;
+  padding-top: 80px;
+}
+.link-name ol{
+  color: white;
+  
+  list-style: none;
+  padding-top: 140px;
+  
+}
+.link-name ol li{
+  margin: 15px;
+  letter-spacing: 4px;
+}
+.link1 img{
+  width: 20px;
+  margin: 5px;
+}
+.link-logo{
+  margin-top: 20px;
+  padding-bottom: 80px;
+  width: 10px;
+  
+}
+
+.cont-des{
+  margin-top: 40px;
+}
+
+
+.contact-us{
+  margin-left: 170px;
+  padding-top: 80px;
+}
+/* footer section ends */
